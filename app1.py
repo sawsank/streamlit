@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the trained model
-model_path = "/Users/shasankjoshi/Desktop/Python Projects/streamlit/svm_breast_cancer_prediction.pkl"
+model_path = "svm_breast_cancer_prediction.pkl"
 model = joblib.load(model_path)
 
 # Streamlit UI
