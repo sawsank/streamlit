@@ -2,7 +2,7 @@ import streamlit as st
 import nltk
 import re
 
-nltk.download('all')
+#nltk.download('all')
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
