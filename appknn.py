@@ -7,7 +7,7 @@ model_path = "knn_breast_cancer_prediction.pkl"
 model = joblib.load(model_path)
 
 # Streamlit UI
-st.title("SVM Model Prediction App")
+st.title("Knn Breast cancer Prediction App")
 st.write("Enter feature values to make a prediction.")
 
 # Assuming 4 input features (adjust according to your model)
